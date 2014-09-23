@@ -1,0 +1,66 @@
+body {
+    padding-top:80px;
+    font-family: "Avenir","helvetica neue","helvetica","arial";
+    font-size: 14px;
+    line-height: 1.428571429;
+    color: #333;
+    background-color: #fff;
+    background: #f1f1f1 url("img/bg2x.jpg") repeat;
+    background-image: -webkit-image-set(url("img/bg2x.jpg") 1x, url("img/bg2x.jpg") 2x);
+    background-size: 135px 91px;
+}
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+.navbar-inverse {
+    background: #32363c;
+    border-color: #2c2f33;
+}
+.navbar-inverse .navbar-nav.choose_page {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 13px;
+    position: absolute;
+    left: 45%;
+    margin-left: -315px;
+}
+.navbar-inverse .navbar-nav.choose_page li a {
+    padding-left: 44px;
+    padding-right: 24px;
+}
+.navbar-inverse .navbar-nav>.active a {
+    background: #232528;
+    color: #fff;
+}
+.label,.glyphicon { margin-right:5px; }
+
+.content_with_margin {
+    background: white;
+    margin-bottom: 40px;
+    border-top: 1px solid #dbdbdb;
+    border-bottom: 1px solid #dbdbdb;
+    -webkit-box-shadow: rgba(0,0,0,0.05) 0 1px 3px;
+    -moz-box-shadow: rgba(0,0,0,0.05) 0 1px 3px;
+    box-shadow: rgba(0,0,0,0.05) 0 1px 3px;
+    color: #474b50;
+    overflow: visible;
+}
+.footer {
+    padding-top: 25px;
+    padding-bottom: 15px;
+    color: #8e9397;
+    font-size: 12px;
+}
+
+@media (min-width: 768px) {
+    .navbar-nav {
+        float: left;
+        margin: 0;
+    }
+}
